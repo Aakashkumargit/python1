@@ -1,0 +1,11 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+c=int(input("enter a number"))
+totalcost=a+b+c
+if totalcost>50:
+  discount = totalcost*0.10
+  totalcost=discount
+  print(f" 10% discount has been applied your total cost after discount is:${totalcost:.2f}")
+else:
+    print(f"your total cost is : ${totalcost:.2f}")
+  
